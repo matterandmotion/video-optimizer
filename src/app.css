@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    @apply bg-white font-sans text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100;
+  }
+
+  /* An open dropdown takes its colours from the options. Chrome on Windows and Linux gives a
+     transparent select a white list, while the options keep the select's light text in dark mode. */
+  option {
+    @apply bg-white text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100;
+  }
+}
