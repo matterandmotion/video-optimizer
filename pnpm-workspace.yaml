@@ -1,0 +1,3 @@
+# Our own packages, which we publish and pin: exempt from pnpm's one-day minimum release age.
+minimumReleaseAgeExclude:
+  - '@matterandmotion/ffmpeg-lite'
