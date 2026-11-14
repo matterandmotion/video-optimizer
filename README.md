@@ -2,6 +2,8 @@
 
 Make videos small and web-ready, in the browser. Files are processed on your device and never uploaded.
 
+**https://video-optimizer.matterandmotion.studio**
+
 Work in progress: the engine is done, the app comes next. For now the page tries the engine on one video at a time.
 
 ## Development
